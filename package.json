@@ -1,0 +1,23 @@
+{
+  "name": "file_metadata_microservice_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glptrst/file_metadata_microservice_1.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/glptrst/file_metadata_microservice_1/issues"
+  },
+  "homepage": "https://github.com/glptrst/file_metadata_microservice_1#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "multer": "^1.3.0"
+  }
+}
