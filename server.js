@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/get-file-size', upload.single('file'), function(req, res, next) {
-    console.log(req.file);
+    res.json({size: req.file.size});
 });
 
 app.listen(port, () => {
